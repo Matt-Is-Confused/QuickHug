@@ -1,0 +1,6 @@
+excluded:
+  - .build
+  - Sources/ckdl
+
+included:
+  - Sources

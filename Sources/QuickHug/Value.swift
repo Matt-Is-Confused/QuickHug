@@ -24,20 +24,22 @@ protocol FromValue {
 
 typealias ValueConvertable = FromValue & ToValue
 
-extension String: ValueConvertable {
-    func fromValue() -> Value {}
+/* // TODO
+ extension String: ValueConvertable {
+     func fromValue() -> Value {}
 
-    func toValue() -> Value {}
-}
+     func toValue() -> Value {}
+ }
 
-extension Double: ValueConvertable {
-    func fromValue() -> Value {}
+ extension Double: ValueConvertable {
+     func fromValue() -> Value {}
 
-    func toValue() -> Value {}
-}
+     func toValue() -> Value {}
+ }
 
-extension Bool: ValueConvertable {
-    func fromValue() -> Value {}
+ extension Bool: ValueConvertable {
+     func fromValue() -> Value {}
 
-    func toValue() -> Value {}
-}
+     func toValue() -> Value {}
+ }
+ */

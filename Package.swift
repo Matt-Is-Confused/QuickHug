@@ -22,6 +22,10 @@ let package = Package(
         ),
         .target(
             name: "ckdl",
+            exclude: [
+                "bindings",
+                "tests",
+            ],
             swiftSettings: [.interoperabilityMode(.Cxx)]
         ),
         .testTarget(
